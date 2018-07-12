@@ -114,7 +114,7 @@ virtualenv venv
 Now install the required python packages using pip, Pythons' package manager tool which comes with Python 2.7.
 
 ```bash
-pip install -r requirements.txt
+pip2 install -r requirements.txt
 ```
 
 > Note that, if you are using supervisor (see below), the name of your virtual environment must be the same as the value of SERVER_NAME and RESOLVER_NAME. Otherwise, the application will fail.
